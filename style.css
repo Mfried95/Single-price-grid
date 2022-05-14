@@ -1,0 +1,174 @@
+/*Font
+font-family: 'Karla', sans-serif;
+400, 700
+*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(216, 17%, 89%);
+    font-size: 1rem;
+}
+
+.container{
+    max-width: 80%;
+    min-width: 20em;
+    margin: 5em auto;
+    box-shadow: -2px 2px 22px -7px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+}
+
+/*  Typeography  */
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+p{
+    line-height: 1.6rem;
+    margin-top: .5em;
+}
+
+strong{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: .5em;
+    color: white;
+}
+
+.pricing {
+    color: hsla(0, 0%, 100%, 0.637);
+}
+
+
+ul{
+    list-style: none;
+}
+
+span{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+/*  Layout  */
+
+.top{
+    background-color: white;
+    min-height: 16em;
+    padding: 1.5em;
+}
+
+.sub-section{
+    background-color: hsl(179, 62%, 43%);
+    min-height: 14em;
+    padding: 1.5em;
+    color: white;
+    font-weight: 400;
+}
+
+.why-us{
+    min-height: 14em;
+    padding: 1.5em;
+    color: hsl(204, 43%, 93%);
+    background-color: rgb(14, 190, 190);
+}
+
+
+/* Button */
+
+button{
+    min-width: 90%;
+    padding: 1em;
+    margin-top: 1.2em;
+    border-radius: .3em;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover{
+    border: solid 2px white;
+    background-color: hsl(179, 62%, 43%);
+    color: black;
+    opacity: 90%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/*Desktop*/
+
+@media (min-width:760px){
+  
+  
+  
+    /*  Layout  */
+    .container{
+        max-width: 35%;
+        min-width: 45em;
+    }
+
+
+    .bottom{
+        display: flex;
+    }
+
+    .top{
+        padding: 2em;
+        min-height: 16em;
+    }
+
+    .sub-section{
+        min-width: 50%;
+        min-height: 18em;
+        padding: 2em;
+    }
+
+    .why-us{
+        min-width: 50%;
+        padding: 2em;
+    }
+
+
+    /*  Typeography  */
+
+    h2{
+        margin-top: 1em;
+    }
+
+    .top h2{
+        font-size: 1.5rem;
+    }
+
+    .promo{
+        font-size: 1.3rem;
+    }
+
+    .top p{
+        font-size: 1.25rem;
+        color: grey;
+    }
+
+    button{
+        margin-top: 2em;
+        padding: 1.1em;
+    }
+
+
+    .why-us ul{
+        line-height: 1.5rem;
+    }
+
+}
